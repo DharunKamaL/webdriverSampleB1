@@ -16,8 +16,6 @@ public class ShadowDomTest {
 		WebElement shadowHost = driver.findElement(By.cssSelector("#shadow_host"));
 		SearchContext shadowRoot = shadowHost.getShadowRoot();
 		String strText = shadowRoot.findElement(By.cssSelector("#shadow_content")).getText();
-		System.out.println("Shadow DOM Text:"+strText);
-		
+		System.out.println("Shadow DOM Text:"+strText);	
 	}
-
 }

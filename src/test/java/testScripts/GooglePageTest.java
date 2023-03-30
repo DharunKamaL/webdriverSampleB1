@@ -24,5 +24,4 @@ public class GooglePageTest {
 		driver.navigate().refresh();
 		driver.navigate().to("https://www.selenium.dev/");
 	}
-
 }

@@ -23,6 +23,7 @@ public class DropdownTest {
 			multiSel.selectByIndex(2);
 			multiSel.selectByValue("California");
 			multiSel.selectByVisibleText("Florida");
+			
 			List<WebElement>opt=multiSel.getAllSelectedOptions();
 			System.out.println("No.of Selected options:"+opt.size());
 			

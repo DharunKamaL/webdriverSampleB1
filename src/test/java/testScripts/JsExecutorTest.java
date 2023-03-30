@@ -33,6 +33,6 @@ public class JsExecutorTest {
 		WebElement box = (WebElement)js.executeScript("document.getElementsByName('search')[0]");
 		box.getText();
 
-	}
+	} 
 
 }

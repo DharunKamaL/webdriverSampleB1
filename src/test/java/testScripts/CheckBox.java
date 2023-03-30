@@ -16,7 +16,5 @@ public class CheckBox {
 		if(!age.isSelected()) {
 			age.click();
 		}
-
 	}
-
 }
